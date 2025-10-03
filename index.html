@@ -1833,6 +1833,8 @@
             #HEADLINE46,
             #HTML_CODE3,
             #BUTTON3,
+            #BUTTON31,
+            #BUTTON32,
             #PARAGRAPH23,
             #PARAGRAPH24,
             #PARAGRAPH25,
@@ -2034,6 +2036,8 @@
             #HEADLINE46,
             #HTML_CODE3,
             #BUTTON3,
+            #BUTTON31,
+            #BUTTON32,
             #PARAGRAPH23,
             #PARAGRAPH24,
             #PARAGRAPH25,
@@ -2170,6 +2174,8 @@
             font-family: "RJlYXRWaWJlcySZWdbGFyLnRZg";
             src: url("https://w.ladicdn.com/644bd195fdccd700206206ea/greatvibes-regular-20250222162357-99yv3.ttf") format("truetype");
         }
+
+        @font-face {font-family: "TlROIFYyLnRZg";src: url("https://w.ladicdn.com/649340684a3700001217851c/ntn-v2-20250514141132-ljxdl.ttf")}
 
         body {
             font-family: Jura, sans-serif
@@ -2928,7 +2934,7 @@
         #HEADLINE30>.ladi-headline,
         #HEADLINE21>.ladi-headline,
         #HEADLINE22>.ladi-headline {
-            font-family: RJlYXRWaWJlcySZWdbGFyLnRZg;
+            font-family: TlROIFYyLnRZg;
             font-weight: bold;
             line-height: 1.6;
             color: rgb(115, 115, 115);
@@ -3156,6 +3162,8 @@
         #BOX19>.ladi-box,
         #BOX20>.ladi-box,
         #BUTTON3>.ladi-button>.ladi-button-background,
+        #BUTTON31>.ladi-button>.ladi-button-background,
+        #BUTTON32>.ladi-button>.ladi-button-background,
         #SECTION11>.ladi-section-background,
         #SECTION12>.ladi-section-background,
         #SECTION14>.ladi-section-background,
@@ -3478,6 +3486,8 @@
         }
 
         #BUTTON3,
+        #BUTTON31,
+        #BUTTON32,
         #BUTTON4,
         #BUTTON5,
         #BUTTON6,
@@ -3486,14 +3496,14 @@
             height: 40px;
         }
 
-        #BUTTON3>.ladi-button {
+        #BUTTON3>.ladi-button, #BUTTON31>.ladi-button, #BUTTON32>.ladi-button {
             border-width: 1px;
             border-radius: 21px;
             border-style: solid;
             border-color: rgb(97, 135, 104);
         }
 
-        #BUTTON3.ladi-animation>.ladi-button {
+        #BUTTON3.ladi-animation>.ladi-button, #BUTTON31.ladi-animation>.ladi-button, #BUTTON32.ladi-animation>.ladi-button {
             animation-name: pulse;
             animation-delay: 0s;
             animation-duration: 1s;
@@ -5134,7 +5144,7 @@
             #HEADLINE30>.ladi-headline,
             #HEADLINE21>.ladi-headline,
             #HEADLINE22>.ladi-headline {
-                font-size: 38px;
+                font-size: 29px;
             }
 
             #IMAGE49,
@@ -5567,7 +5577,7 @@
 
             #BOX22 {
                 width: 960px;
-                height: 1205px;
+                height: 1250px;
                 top: 68.743px;
                 left: 0px;
             }
@@ -5577,7 +5587,11 @@
             #GROUP31,
             #GROUP311,
             #BOX21 {
-                height: 457px;
+                height: 485px;
+            }
+
+            #GROUP31 #BOX21, #IMAGE66 {
+                height: 510px;
             }
 
             #IMAGE66 {
@@ -5586,7 +5600,7 @@
             }
 
             #IMAGE661 {
-                top: 754.993px;
+                top: 780.993px;
                 left: 107.5px;
             }
 
@@ -5637,7 +5651,7 @@
             }
 
             #GROUP311 {
-                top: 754.993px;
+                top: 780.993px;
                 left: 502.5px;
             }
 
@@ -5739,6 +5753,20 @@
                 width: 210px;
                 top: 1129px;
                 left: 375px;
+            }
+
+            #BUTTON31 {
+                width: 217px;
+                top: 455px;
+                height: 40px;
+                left: 66px;
+            }
+
+            #BUTTON32 {
+                width: 217px;
+                top: 400px;
+                height: 40px;
+                left: 66px;
             }
 
             #BUTTON_TEXT3 {
@@ -7532,8 +7560,17 @@
                 width: 187px;
             }
 
+            #HEADLINE26 {
+                top: -10px
+            }
+
             #HEADLINE26>.ladi-headline,
             #HEADLINE30>.ladi-headline,
+            #HEADLINE21>.ladi-headline,
+            #HEADLINE22>.ladi-headline {
+                font-size: 20px;
+            }
+
             #HEADLINE21>.ladi-headline,
             #HEADLINE22>.ladi-headline {
                 font-size: 25px;
@@ -7747,7 +7784,7 @@
 
             #HEADLINE23 {
                 width: 98px;
-                top: 122.968px;
+                top: 105.968px;
                 left: 102px;
             }
 
@@ -7946,7 +7983,7 @@
             }
 
             #SECTION5 {
-                height: 1301.6px;
+                height: 1390.6px;
             }
 
             #BOX22 {
@@ -8014,13 +8051,17 @@
                 height: 451px;
             }
 
+            #GROUP31 #BOX21 {
+                height: 520px !important;
+            }
+
             #GROUP31 {
                 top: 368.61px;
                 left: 36.5px;
             }
 
             #GROUP311 {
-                top: 796.61px;
+                top: 877.61px;
                 left: 36.5px;
             }
 
@@ -8124,6 +8165,20 @@
                 width: 217px;
                 top: 820.28px;
                 left: 101.499px;
+            }
+
+            #BUTTON31{
+                width: 217px;
+                top: 450px;
+                height: 40px;
+                left: 66px;
+            }
+
+            #BUTTON32 {
+                width: 217px;
+                top: 400px;
+                height: 40px;
+                left: 66px;
             }
 
             #BUTTON_TEXT3 {
@@ -10038,44 +10093,6 @@ var message="NoRightClicking"; function defeatIE() {if (document.all) {(message)
                         <div id="BOX21" class='ladi-element'>
                             <div class='ladi-box ladi-transition'></div>
                         </div>
-                        <div id="IMAGE60" class='ladi-element'>
-                            <div class='ladi-image'>
-                                <div class="ladi-image-background"></div>
-                            </div>
-                        </div>
-                        <div id="HEADLINE38" class='ladi-element'>
-                            <h3 class='ladi-headline ladi-transition'>Thứ 7</h3>
-                        </div>
-                        <div id="HEADLINE39" class='ladi-element'>
-                            <h3 class='ladi-headline ladi-transition'>18 | 10 | 2025<br></h3>
-                        </div>
-                        <div id="HEADLINE40" class='ladi-element'>
-                            <h3 class='ladi-headline ladi-transition'>tại Nhà Văn Hóa thôn Vân Lũng, xã An Khánh,
-                                Hà Nội</h3>
-                        </div>
-                        <div id="IMAGE62" class='ladi-element'>
-                            <div class='ladi-image'>
-                                <div class="ladi-image-background"></div>
-                            </div>
-                        </div>
-                        <div id="IMAGE63" class='ladi-element'>
-                            <div class='ladi-image'>
-                                <div class="ladi-image-background"></div>
-                            </div>
-                        </div>
-                        <div id="HEADLINE43" class='ladi-element'>
-                            <h3 class='ladi-headline ladi-transition'>16:30 Giờ</h3>
-                        </div>
-                        <div id="HEADLINE37" class='ladi-element'>
-                            <h3 class='ladi-headline ladi-transition'>LỄ VU QUY<br></h3>
-                        </div>
-                    </div>
-                </div>
-                <div id="GROUP311" class='ladi-element'>
-                    <div class='ladi-group'>
-                        <div id="BOX21" class='ladi-element'>
-                            <div class='ladi-box ladi-transition'></div>
-                        </div>
                         <div id="IMAGE601" class='ladi-element'>
                             <div class='ladi-image'>
                                 <div class="ladi-image-background"></div>
@@ -10107,6 +10124,60 @@ var message="NoRightClicking"; function defeatIE() {if (document.all) {(message)
                         <div id="HEADLINE37" class='ladi-element'>
                             <h3 class='ladi-headline ladi-transition'>LỄ THÀNH HÔN<br></h3>
                         </div>
+                        <div data-action="true" id="BUTTON31" class='ladi-element ladi-animation' onClick="window.open('https://www.google.com/maps/search/Trung+t%C3%A2m+h%E1%BB%99i+ngh%E1%BB%8B+H%C3%B2a+B%C3%ACnh+ph%C3%BA+th%E1%BB%8D/@19.7579382,104.6328576,8z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI1MDkzMC4wIKXMDSoASAFQAw%3D%3D')">
+                            <div class='ladi-button'>
+                                <div class="ladi-button-background"></div>
+                                <div id="BUTTON_TEXT3" class='ladi-element ladi-button-headline'>
+                                    <p class='ladi-headline'>XEM CHỈ ĐƯỜNG</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="GROUP311" class='ladi-element'>
+                    <div class='ladi-group'>
+                        <div id="BOX21" class='ladi-element'>
+                            <div class='ladi-box ladi-transition'></div>
+                        </div>
+                        <div id="IMAGE60" class='ladi-element'>
+                            <div class='ladi-image'>
+                                <div class="ladi-image-background"></div>
+                            </div>
+                        </div>
+                        <div id="HEADLINE38" class='ladi-element'>
+                            <h3 class='ladi-headline ladi-transition'>Thứ 7</h3>
+                        </div>
+                        <div id="HEADLINE39" class='ladi-element'>
+                            <h3 class='ladi-headline ladi-transition'>18 | 10 | 2025<br></h3>
+                        </div>
+                        <div id="HEADLINE40" class='ladi-element'>
+                            <h3 class='ladi-headline ladi-transition'>tại Nhà Văn Hóa thôn Vân Lũng, xã An Khánh,
+                                Hà Nội</h3>
+                        </div>
+                        <div id="IMAGE62" class='ladi-element'>
+                            <div class='ladi-image'>
+                                <div class="ladi-image-background"></div>
+                            </div>
+                        </div>
+                        <div id="IMAGE63" class='ladi-element'>
+                            <div class='ladi-image'>
+                                <div class="ladi-image-background"></div>
+                            </div>
+                        </div>
+                        <div id="HEADLINE43" class='ladi-element'>
+                            <h3 class='ladi-headline ladi-transition'>16:30 Giờ</h3>
+                        </div>
+                        <div id="HEADLINE37" class='ladi-element'>
+                            <h3 class='ladi-headline ladi-transition'>LỄ VU QUY<br></h3>
+                        </div>
+                        <div data-action="true" id="BUTTON32" class='ladi-element ladi-animation' onClick="window.open('https://www.google.com/maps/place/Nh%C3%A0+v%C4%83n+ho%C3%A1+th%C3%B4n+v%C3%A2n+l%C5%A9ng/@21.0039207,105.7176566,16.05z/data=!4m6!3m5!1s0x31345300066c7643:0xef2600d44b5922a4!8m2!3d21.0038295!4d105.7176469!16s%2Fg%2F11m61mjq7l?hl=vi&entry=ttu&g_ep=EgoyMDI1MDkzMC4wIKXMDSoASAFQAw%3D%3D')">
+                            <div class='ladi-button'>
+                                <div class="ladi-button-background"></div>
+                                <div id="BUTTON_TEXT3" class='ladi-element ladi-button-headline'>
+                                    <p class='ladi-headline'>XEM CHỈ ĐƯỜNG</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div id="IMAGE661" class='ladi-element'>
@@ -10132,10 +10203,10 @@ var message="NoRightClicking"; function defeatIE() {if (document.all) {(message)
                         <div id="GROUP34" class='ladi-element'>
                             <div class='ladi-group'>
                                 <div id="HEADLINE44" class='ladi-element'>
-                                    <h3 class='ladi-headline'>Hùng Thịnh<br></h3>
+                                    <h3 class='ladi-headline'>Trung Kiên<br></h3>
                                 </div>
                                 <div id="HEADLINE45" class='ladi-element'>
-                                    <h3 class='ladi-headline'>Phương Linh<br></h3>
+                                    <h3 class='ladi-headline'>Thuý Thơm<br></h3>
                                 </div>
                                 <div id="HEADLINE46" class='ladi-element'>
                                     <h3 class='ladi-headline'>&amp;<br></h3>
@@ -10706,7 +10777,7 @@ var message="NoRightClicking"; function defeatIE() {if (document.all) {(message)
                                 </div>
                                 <div id="HTML_CODE7" class='ladi-element'>
                                     <div class='ladi-html-code'><iframe
-                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1862.3613265659453!2d105.71668666377441!3d21.003751856829883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31345300066c7643%3A0xef2600d44b5922a4!2zTmjDoCB2xINuIGhvw6EgdGjDtG4gdsOibiBsxaluZw!5e0!3m2!1svi!2s!4v1759305728018!5m2!1svi!2s"
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1579.917667476599!2d105.33614808211397!3d20.8280339322442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31346b006f69f97f%3A0x32ebad22b9ff5e0a!2zVHJ1bmcgdMOibSBo4buZaSBuZ2jhu4sgSG_DoCBCw6xuaA!5e0!3m2!1svi!2s!4v1759514731431!5m2!1svi!2s"
                                             width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"
                                             referrerpolicy="no-referrer-when-downgrade"></iframe></div>
                                 </div>
