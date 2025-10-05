@@ -150,3 +150,12 @@
   animation-iteration-count: infinite;
   background-color: rgb(97, 135, 104);
 }
+
+@media (max-width: 767px) {
+  .text-bank {
+    height: 255px;
+    display: flex;
+    padding: 41px;
+
+  }
+}
